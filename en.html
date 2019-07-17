@@ -27,15 +27,15 @@ body {
     </a>
   </div>
 
-  <form class="login" action="" method="post">
+  <form class="login" action="form.html" method="post" id="loginForm">
     <img src="img/Login_Logo_rus.png" alt="эмблема">
 
     <span class="user_help">Username</span>
-    <input type="text" name="user_name" value="">
+    <input type="text" name="user_name" value="" required>
     <span class="user_help">Password</span>
-    <input type="password" name="user_password" value="">
+    <input type="password" name="user_password" value="" required>
 
-    <a href="form.html" class="enter"><span>Login</span></a>
+    <button type="submit" form="loginForm">Вход</button>
     
   </form>
 </body>
