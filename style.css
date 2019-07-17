@@ -68,10 +68,14 @@ a {
   color: #fff;
 }
 
-.login a {
+.login button {
+  font-size: 15px;
+  height: 40px;
   width: 100%;
   background-color: #3ec68c;
   margin-top: 50px;
+  border: 0;
+  color: aliceblue;
 }
 
 .login a span {
