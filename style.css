@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("img/Background.png"); */
+  background-size: cover;
+  position: relative;
+  font-family: sans-serif;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fff;
+  text-decoration: none;
+}
+
+.change-language {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  background: rgba(152, 163, 173, 0.7);
+}
+
+.change-language span {
+  padding: 2px 7px;
+  margin-right: 10px;
+}
+
+.change-language .ru, .change-language .en {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+.change-language img {
+  width: 40px;
+  height: auto;
+}
+
+.login {
+  display: grid;
+  width: 300px;
+  height: calc(100vh - 50px);
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login img {
+  width: 100%;
+  height: auto;
+}
+
+.login input {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.user_help {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.login a {
+  width: 100%;
+  background-color: #3ec68c;
+  margin-top: 50px;
+}
+
+.login a span {
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  transition: .3s;
+}
+
+.login a span:hover {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  transition: .3s;
+}
+
+.table-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1.5px solid #e9e9e9;
+  padding-bottom: 10px;
+}
+
+.table-title .left-title {
+  font-weight: bold;
+}
+
+.table-title .right-title {
+  justify-self: end;
+}
+
+.table-title .right-title i {
+  margin-right: 3px;
+  border: 2px solid #d2d2d2;
+  border-radius: 50px;
+  padding: 5px;
+  transition: .3s;
+}
+
+.table-title .right-title i:hover {
+  cursor: pointer;
+  background-color: rgba(210, 210, 210, 0.3);
+  transition: .3s;
+}
+
+.table-title .right-title .fa-times {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.table-title .right-title .fa-chevron-down, .table-title .right-title .fa-plus {
+  padding: 6px;
+  padding-bottom: 5px;
+}
+
+.table-title .right-title i:last-child {
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+table tr {
+  background-color: #fdfbdd;
+}
+
+table tr:nth-child(1) {
+  background-color: rgba(196, 211, 219, 0.49);
+  text-align: center;
+  color: #4d6282;
+}
+
+table td {
+  padding: 15px 10px;
+  border: 1px solid #d2d2d2;
+}
+
+table td:nth-child(1), table td:nth-child(2) {
+  width: 20px;
+  padding: 0;
+  padding-left: 11px;
+  font-size: 20px;
+}
+
+table td:nth-child(2) {
+  padding-left: 7px;
+  padding-right: 4px;
+}
